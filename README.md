@@ -14,6 +14,12 @@ I learn through practical projects: configuring networks, breaking and repairing
 | **Sayyad — home services marketplace** | Arabic-first interface, accounts, bookings, Supabase and offline-first design | [Project repository](https://github.com/ahmedmadkour-dev/sayyad) |
 | **FitLoop — alterations marketplace demo** | Interactive discovery, quotes and booking prototype for an entrepreneurship competition | [Website](https://tryfitloop.co.uk) · [Project repository](https://github.com/ahmedmadkour-dev/fitloop) |
 
+### FitLoop — website preview
+
+[![FitLoop — clothes you love, fitted for you](https://raw.githubusercontent.com/ahmedmadkour-dev/fitloop/main/assets/fitloop-homepage.webp)](https://tryfitloop.co.uk)
+
+**[Visit tryfitloop.co.uk →](https://tryfitloop.co.uk)** · [View screenshots and project notes](https://github.com/ahmedmadkour-dev/fitloop)
+
 **[Explore my project portfolio →](portfolio/README.md)**
 
 ## Technical areas I'm practising
