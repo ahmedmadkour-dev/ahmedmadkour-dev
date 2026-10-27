@@ -12,7 +12,7 @@ I learn through practical projects: configuring networks, breaking and repairing
 | **Ubuntu / VirtualBox homelab** | Linux, SSH, Nginx, Windows-to-VM port forwarding, permissions and deliberate fault repair | [Read the homelab case study](portfolio/homelab/README.md) |
 | **JARVIS — hybrid AI desktop assistant** | Local/cloud AI, voice, automation, memory and permission-controlled actions | [Project repository](https://github.com/ahmedmadkour-dev/jarvis-ai-assistant) |
 | **Sayyad — home services marketplace** | Arabic-first interface, accounts, bookings, Supabase and offline-first design | [Project repository](https://github.com/ahmedmadkour-dev/sayyad) |
-| **FitLoop — alterations marketplace demo** | Interactive discovery, quotes and booking prototype for an entrepreneurship competition | [Project repository](https://github.com/ahmedmadkour-dev/fitloop) |
+| **FitLoop — alterations marketplace demo** | Interactive discovery, quotes and booking prototype for an entrepreneurship competition | [Website](https://tryfitloop.co.uk) · [Project repository](https://github.com/ahmedmadkour-dev/fitloop) |
 
 **[Explore my project portfolio →](portfolio/README.md)**
 
