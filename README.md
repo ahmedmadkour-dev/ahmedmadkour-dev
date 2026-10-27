@@ -1,60 +1,38 @@
 # Hi, I'm Ahmed 👋
 
-I'm a Year 11 student in Newcastle upon Tyne interested in **technology, AI, software, networking and infrastructure**.
+I'm based in Newcastle upon Tyne, UK, and I enjoy building things to understand how technology works. My interests include **networking, infrastructure, Linux, cybersecurity, software engineering and applied AI**.
 
-I enjoy learning by building things, experimenting with new tools and figuring out how systems work. I'm currently developing my technical skills while preparing for **technology apprenticeship opportunities starting in 2027**.
+I learn through practical projects: configuring networks, breaking and repairing servers, building prototypes, and working out why something failed.
 
-## What I'm interested in
+## Featured projects
 
-- AI and automation
-- Cloud, infrastructure and DevOps
-- Networking
-- Cybersecurity
-- Software engineering
-- Technical problem-solving
-- Entrepreneurship and building useful products
+| Project | What I worked on | Documentation |
+| --- | --- | --- |
+| **Cisco Packet Tracer — 8 networking labs** | LANs, routing, DHCP, DNS/HTTP, VLANs, inter-VLAN routing, ACLs and fault diagnosis | [Read the networking case study](portfolio/networking/README.md) |
+| **Ubuntu / VirtualBox homelab** | Linux, SSH, Nginx, Windows-to-VM port forwarding, permissions and deliberate fault repair | [Read the homelab case study](portfolio/homelab/README.md) |
+| **JARVIS — hybrid AI desktop assistant** | Local/cloud AI, voice, automation, memory and permission-controlled actions | [Project repository](https://github.com/ahmedmadkour-dev/jarvis-ai-assistant) |
+| **Sayyad — home services marketplace** | Arabic-first interface, accounts, bookings, Supabase and offline-first design | [Project repository](https://github.com/ahmedmadkour-dev/sayyad) |
+| **FitLoop — alterations marketplace demo** | Interactive discovery, quotes and booking prototype for an entrepreneurship competition | [Project repository](https://github.com/ahmedmadkour-dev/fitloop) |
 
-## Projects
+**[Explore my project portfolio →](portfolio/README.md)**
 
-### JARVIS — Hybrid AI Desktop Assistant
-A Windows desktop assistant combining **Gemini, local Qwen/Ollama, live voice, browser automation, desktop controls, memory and permission systems**.
+## Technical areas I'm practising
 
-The project taught me a lot about the gap between an AI understanding an instruction and reliably carrying it out on a real computer.
+- **Networking:** IP addressing, switches and routers, VLANs, trunking, DHCP, DNS, ACLs, testing with ping and router CLI.
+- **Linux and servers:** shell, permissions, system services, SSH, Nginx, HTTP, NAT/port forwarding and troubleshooting.
+- **Programming and AI:** Python fundamentals; TypeScript/React product prototypes; integrating AI models with tools and permission checks.
+- **Engineering approach:** observe symptoms → form a hypothesis → test one variable → verify the repair → document what I learnt.
 
-[View JARVIS →](https://github.com/pzz9n7c7cj-bot/jarvis-ai-assistant)
+## How I work
 
-### Sayyad — Libya Trades Marketplace
-An Arabic-first marketplace/PWA designed to help people in Libya find and book local tradespeople.
+AI tools helped me with aspects of design, code generation, explanations and troubleshooting. I set project goals, configured and tested systems, investigated failures and iterated on what worked. I try to describe **what was actually tested**, not just what was intended.
 
-Built with **React, TypeScript, Supabase, PostgreSQL, offline support and role-based customer/provider/admin flows**. I also configured the Supabase-backed version and tested real account creation and persistent bookings.
+This portfolio separates **completed exercises**, **working prototypes** and **experiments still in progress**. The case studies are written from my practical sessions through **27 October 2026**. Where original project files or screenshots are not yet uploaded, I say so.
 
-[View Sayyad →](https://github.com/pzz9n7c7cj-bot/sayyad)
+## Currently exploring
 
-### FitLoop — Clothing Alterations Marketplace Prototype
-An interactive marketplace prototype built for the **Generating Genius Entrepreneurship Genius** competition.
-
-FitLoop explored how customers could find local tailors, request alterations, compare quotes and track bookings. I built the website and deployed the demo publicly for the competition.
-
-[View FitLoop →](https://github.com/pzz9n7c7cj-bot/fitloop)
-
-## Currently learning
-
-- Cisco networking fundamentals and Packet Tracer
-- Linux and home-lab/server concepts
-- Python and software development
-- AI-assisted development
-- How real infrastructure and cloud systems fit together
-
-## How I build
-
-I use AI coding tools as part of my workflow, but I try to understand the systems I'm building rather than treating generated code as a black box. My focus is on **designing, integrating, testing, debugging and learning from what breaks**.
-
-## What I'm working towards
-
-My current goal is to build a strong technical foundation and portfolio before applying for **high-quality technology apprenticeships in 2027**.
-
-I'm especially interested in opportunities where I can learn from experienced engineers, work on real systems and continue progressing technically over the long term.
+Cloud/infrastructure, practical cybersecurity, Python and more advanced networking.
 
 ---
 
-**Newcastle upon Tyne, UK** · Building, learning and documenting what I make.
+[Portfolio index](portfolio/README.md) · [Evidence status](portfolio/EVIDENCE.md) · [Practical skills](portfolio/SKILLS.md)
