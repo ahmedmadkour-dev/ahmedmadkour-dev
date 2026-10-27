@@ -29,7 +29,7 @@ See the [project report](https://github.com/ahmedmadkour-dev/sayyad/blob/main/PR
 
 ## FitLoop — clothing alterations marketplace demo
 
-**[Repository](https://github.com/ahmedmadkour-dev/fitloop)**
+**[Website](https://tryfitloop.co.uk)** · **[Repository and screenshots](https://github.com/ahmedmadkour-dev/fitloop)**
 
 - Interactive product prototype created for a 2026 entrepreneurship competition.
 - Worked on customer discovery flow, tailor filtering, alteration requests, simulated quote comparison and booking progress.
