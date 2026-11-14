@@ -113,3 +113,9 @@ See [testing notes and command reference](TESTS.md).
 Export the eight `.pkt` files, save sanitized `show run` / `show vlan brief` / `show interfaces trunk` output, add dated screenshots for each test, and repeat the builds from memory without guided prompts. Future work: DHCP relay, more precise extended ACL verification and basic network monitoring.
 
 **Evidence status:** authentic screenshots were reviewed from my earlier ChatGPT sessions, but the image files and Packet Tracer projects have **not** yet been committed to this repository. See [evidence register](../EVIDENCE.md).
+
+## Project 09 — Two-site enterprise network
+
+On 14 November 2026, I completed a larger Packet Tracer simulation connecting Newcastle HQ and a Manchester branch using six VLANs, router-on-a-stick, OSPF and tested guest ACL restrictions. The documented test results include inter-office pings, OSPF-learned routes, ACL counters and a subinterface-addressing troubleshooting exercise.
+
+**[Read the Project 09 case study](project-09/README.md)**. The original `.pkt` file and configuration exports have not yet been uploaded.
