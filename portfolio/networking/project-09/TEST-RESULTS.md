@@ -36,6 +36,6 @@ Guest devices received messages such as `Reply from 192.168.60.1: Destination ho
 - Comprehensive reachability/denial matrix across every source and destination.
 - DHCP lease assignment or DNS/HTTP testing.
 - Alternate routing path or failure/reconvergence test.
-- Collection of complete running-config exports and the actual `.pkt` file.
+- Reopening and independently checking the [uploaded original `.pkt` simulation](enterprise-network-project-09.pkt), plus collecting complete running-config exports.
 
 The project demonstrates tested behaviour in a simulator, not a security audit or production deployment.
