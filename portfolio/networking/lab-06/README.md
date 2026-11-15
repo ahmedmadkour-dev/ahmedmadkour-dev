@@ -1,7 +1,7 @@
 # Cisco Packet Tracer Lab 06 — Router-on-a-stick inter-VLAN routing
 
 **Format:** Simulator-based guided lab (September–October 2026)  
-**Artifact status:** Written case study available; original Packet Tracer simulation file **not uploaded**.
+**Artifact status:** [Original Packet Tracer simulation — lab-06.pkt](lab-06.pkt) uploaded and checked byte-for-byte against the user-supplied file. The project has not been reopened in Packet Tracer within this environment.
 
 **Purpose:** Allow hosts in different VLANs to communicate through an 802.1Q trunk and router subinterfaces.
 
@@ -11,10 +11,10 @@
 
 **What I learnt:** Trunking carries tagged traffic for multiple VLANs, while router subinterfaces provide Layer 3 routing between those networks.
 
-**Evidence boundary:** The observed result comes from an earlier chat. The original `.pkt` and screenshots are not committed.
+**Evidence boundary:** The saved simulation is included; the reported 3/4 ping result came from an earlier guided session, and the original screenshot is not attached.
 
 ## Reproduce and document
 
-To make this lab reproducible, locate or rebuild the original Packet Tracer topology, save it as `lab-06.pkt`, and capture the interface/VLAN details and a fresh expected-vs-actual test result. Do not label recreated screenshots as the original.
+Open [lab-06.pkt](lab-06.pkt) in Cisco Packet Tracer, confirm the saved configuration, and record a fresh expected-versus-actual connectivity test with a topology screenshot. The saved file is authentic, but it was not independently executed here.
 
 [All networking projects](../README.md) · [Project 09 — Two-site network](../project-09/README.md)
