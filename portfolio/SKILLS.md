@@ -19,7 +19,7 @@
 
 ## Goals that would most improve my portfolio
 
-1. Commit the actual **Cisco `.pkt` files** and original test screenshots.
+1. **Completed:** Commit all nine original Cisco `.pkt` files. **Next:** Reopen them in Packet Tracer and add original topology and connectivity screenshots.
 2. Add checked **source exports** for FitLoop, Sayyad and JARVIS where appropriate and safe.
 3. Record a concise narrated demonstration of Project 09 and the Ubuntu security lab.
 4. Independently rebuild one networking or Linux setup and document differences.
