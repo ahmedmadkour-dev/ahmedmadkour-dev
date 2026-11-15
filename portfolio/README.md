@@ -35,4 +35,6 @@ See [evidence status and priorities](EVIDENCE.md) and [skills matrix](SKILLS.md)
 
 Each case study focuses on the problem, my role, what was implemented, what I personally tested and what remains incomplete. A demo should not be mistaken for a launched service, and a simulation should not be mistaken for production infrastructure.
 
+**[Prioritised improvements](NEXT-STEPS.md)**
+
 *Updated: 15 November 2026.*
