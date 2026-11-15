@@ -2,7 +2,7 @@
 
 **Built and tested:** 14 November 2026  
 **Type:** Educational network simulation, not a live deployment  
-**Status:** Core configuration and tests completed; original Packet Tracer file and raw device configuration exports still need to be added.
+**Status:** Original [Packet Tracer simulation](enterprise-network-project-09.pkt) uploaded; core network and ACL tests documented from the guided session. Raw device configuration exports and final screenshots still need to be added.
 
 ## Project overview
 
@@ -95,9 +95,9 @@ During the build, VLAN 30 and VLAN 40 hosts were unreachable. I used `show ip in
 - How the interface and direction of an ACL determine which traffic it filters.
 - How to diagnose failures systematically using interface status, IP plans, routing tables, VLAN membership, pings and ACL hit counters.
 
-## Files not yet uploaded
+## Files and outstanding evidence
 
-- [ ] `enterprise-network-project-09.pkt` — saved Packet Tracer simulation
+- [x] [Original Project 09 Packet Tracer simulation](enterprise-network-project-09.pkt) — uploaded byte-for-byte and hash verified; not independently reopened here
 - [ ] Screenshots of the topology, configurations, OSPF and test outputs
 - [ ] Sanitised `show running-config` outputs for both routers and both switches
 
