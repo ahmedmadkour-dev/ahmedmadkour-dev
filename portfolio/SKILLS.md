@@ -1,25 +1,26 @@
-# Evidence-led technical skills matrix
+# Practical skills — supported by projects
 
-**As of 27 October 2026.** Labels describe the scope of my practice; they are not certifications or professional-experience levels.
+**Updated: 15 November 2026.** These are learning projects, not professional certifications or production experience.
 
-| Area | What I've demonstrated | Current boundary |
-| --- | --- | --- |
-| IP networking | Packet Tracer addressing, gateways, successful ping tests | Simulator-based; real hardware admin still to learn |
-| Switching / VLANs | STAFF/GUEST VLANs, access ports, trunks, routing between VLANs | Need repeat builds from memory and save `.pkt` exports |
-| DHCP / DNS / HTTP | Guided Packet Tracer services and name resolution | Small simulated scenarios only |
-| Access lists | Guest/Staff access-control exercise | Need stronger logging and positive/negative test evidence |
-| Linux CLI | File navigation, packages, file permissions | Continuing practice |
-| SSH | Remote Windows → Ubuntu terminal login over forwarded TCP port | Controlled home VM, not hardened production host |
-| Web services | Installed Nginx and served an HTML page with HTTP 200 | Small single-VM setup |
-| Troubleshooting | Deliberately fixed service-down, port mismatch and HTTP 403 errors | Guided faults; no production incident experience |
-| Python | Input, conditions, counters, loops, debugging | Learning-level scripts; larger unassisted programs ahead |
-| Web/AI apps | Designed, integrated and tested JARVIS, Sayyad, FitLoop prototypes | Significant AI-assisted code; not all production workflows verified |
-| Product discovery | Small SEO dataset testing and customer conversations | No claim of paying clients, recurring revenue or product-market fit |
+| Area | Practical evidence | Important boundary |
+|---|---|---|
+| LANs, gateways and routing | Packet Tracer Labs 01–02, 09; ping and interface checks | Simulated Cisco hardware |
+| DHCP, DNS and HTTP | Guided Packet Tracer Labs 03–04 | Original lab files/screenshots still needed |
+| VLANs, 802.1Q and inter-VLAN routing | Labs 05–06 and two-site Project 09 | Need to repeat builds without guided steps |
+| OSPF | Project 09: FULL adjacency; learned 192.168.50.0/24 and 192.168.60.0/24 | Single-area, two-router simulation; no failover test |
+| ACLs and troubleshooting | Labs 07–08 and Project 09 guest denies/counters; subinterface IP repair | Controlled learning exercises, not production firewall management |
+| Linux system administration | Ubuntu / VirtualBox homelab, services, packages, permissions, Nginx | Single home VM |
+| Network access / firewall | UFW deny incoming, allow TCP 22/80; Windows-to-VM NAT port forwarding | No public internet-facing deployment |
+| SSH hardening | Ed25519 key-based access; password-only attempt rejected | Recovery/testing in home lab |
+| Bash and systemd | SSH log report, rolling-window alert and recurring timer | Full live positive-alert path not yet verified |
+| Log analysis | journalctl/awk/grep; synthetic distributed-IP and cooldown tests | Not a production intrusion-detection system |
+| Product prototyping | FitLoop website, presentation and award; Sayyad bookings/account testing | Prototypes, not operating businesses |
+| Python / AI tooling | Small Python exercises; JARVIS integrations and workflows | Learning/experimental scope |
 
-## Development goals
+## Goals that would most improve my portfolio
 
-1. Save and explain real configuration artifacts and original screenshots.
-2. Repeat core router, VLAN, SSH and Nginx setups without step-by-step help.
-3. Improve test design: expected/actual outcomes, failure modes and reproducible builds.
-4. Build a small Python program independently with tests.
-5. Learn secure deployment basics before exposing lab services beyond the host.
+1. Commit the actual **Cisco `.pkt` files** and original test screenshots.
+2. Add checked **source exports** for FitLoop, Sayyad and JARVIS where appropriate and safe.
+3. Record a concise narrated demonstration of Project 09 and the Ubuntu security lab.
+4. Independently rebuild one networking or Linux setup and document differences.
+5. Improve script tests, error handling and monitoring of actual alert-file writes.
