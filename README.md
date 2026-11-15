@@ -39,4 +39,6 @@ I separate **tested lab results**, **interactive prototypes** and **experiments 
 
 **[Browse the organised portfolio](portfolio/README.md)** · [Evidence and missing files](portfolio/EVIDENCE.md) · [Skills in practice](portfolio/SKILLS.md)
 
+**[Prioritised improvements](portfolio/NEXT-STEPS.md)**
+
 *Last updated: 15 November 2026*
