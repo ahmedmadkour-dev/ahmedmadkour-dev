@@ -1,59 +1,38 @@
-# Practical project portfolio
+# Project portfolio — index
 
-**Maintained by Ahmed | Last documented: 27 October 2026**
+Hands-on work in infrastructure, cybersecurity, product design and technical experiments. The pages distinguish **working prototypes, verified guided labs and unfinished ideas**. Not every case study includes its original source or project file.
 
-This is a collection of hands-on technical projects, not a claim that every area has been mastered. The goal is to show the system built, how it was tested, the issues encountered, and the learning that followed.
+## Featured projects
 
-## Project directory
+| Focus | Project | Outcome | Open |
+|---|---|---|---|
+| Product & entrepreneurship | **FitLoop** | Website prototype presented at Generating Genius Entrepreneurship Genius 2026; **Outstanding Individual award** | [FitLoop — competition, product and demo](fitloop/README.md) |
+| Networking | **Cisco Project 09** | Two-office Packet Tracer design with OSPF and guest ACL tests | [Project 09](networking/project-09/README.md) |
+| Linux security | **Project 10** | UFW, key-only SSH, systemd-scheduled Bash log analysis; synthetic detector tests | [Project 10](homelab/project-10/README.md) |
 
-| Area | Projects / outcomes | Status |
-| --- | --- | --- |
-| [Cisco Packet Tracer](networking/README.md) | 8 increasingly complex networking exercises, culminating in fault diagnosis | **8 labs completed as guided exercises** |
-| [Ubuntu / VirtualBox homelab](homelab/README.md) | Linux basics, remote SSH, Nginx web hosting, service/port/permission failures | **Labs 01–03 completed; Lab 04 attempted** |
-| [AI and product development](software/README.md) | JARVIS, Sayyad and FitLoop, plus previous home media server testing | **Experimental assistant and interactive prototypes** |
-| [Python exercises](python/README.md) | Conditionals, loops, input validation and debugging | **Ongoing learning** |
-| [Independent technical/business experiments](experiments/README.md) | SEO keyword/SERP testing, lightweight customer discovery | **Exploratory, not a commercial product** |
+## Explore by topic
 
-## What the documentation demonstrates
+| Category | Contents |
+|---|---|
+| [Cisco Packet Tracer](networking/README.md) | Individually documented **Labs 01–08** plus Project 09 |
+| [Ubuntu / VirtualBox](homelab/README.md) | Linux homelab exercises and Project 10 |
+| [FitLoop](fitloop/README.md) | Dedicated product, competition and design write-ups |
+| [Software prototypes](software/README.md) | Sayyad, JARVIS and other technology experiments |
+| [Python fundamentals](python/README.md) | Learning exercises and debugging practice |
+| [Independent experiments](experiments/README.md) | SEO research and customer discovery |
 
-**Design:** decide what a network, server or application should do.
+## What is actually in GitHub?
 
-**Implementation:** wire components, configure settings and use the right tools.
+**Written documentation:** all nine Cisco projects, homelab case studies, FitLoop, Sayyad and JARVIS.
 
-**Verification:** test connectivity, inspect HTTP responses, use router/switch or Linux commands, or validate app flows.
+**Source/examples:** the Project 10 Bash script and systemd definitions, plus synthetic test scripts. The main FitLoop, Sayyad and JARVIS repositories currently contain project write-ups and/or demo screenshots rather than full source exports.
 
-**Troubleshooting:** deliberately introduce failures, identify whether the fault is at the application, operating system, network or access-control layer, and restore service.
+**Still missing:** original Cisco `.pkt` files for Labs 01–09 and many original terminal/topology screenshots. These should be added from the user's machine after checking for secrets, without replacing past results with invented evidence.
 
-**Reflection:** separate observations from assumptions and unfinished work.
+See [evidence status and priorities](EVIDENCE.md) and [skills matrix](SKILLS.md).
 
-## Evidence and reproducibility
+## Documentation approach
 
-- [Evidence register](EVIDENCE.md): which genuine screenshots were reviewed and what original files are still needed for a fully reproducible portfolio.
-- [Skills and confidence matrix](SKILLS.md): demonstrated exercises versus topics I'm still learning.
-- **Not included yet:** original Cisco `.pkt` lab files, full VM images and several original chat screenshots. They are **not** represented as attached evidence here.
-- Network configuration snippets are **representative reconstructions of the lab procedure** unless labelled as direct screenshots/logs; they are not exported router running-config files.
+Each case study focuses on the problem, my role, what was implemented, what I personally tested and what remains incomplete. A demo should not be mistaken for a launched service, and a simulation should not be mistaken for production infrastructure.
 
-## Repository map
-
-```text
-portfolio/
-├── README.md
-├── EVIDENCE.md
-├── SKILLS.md
-├── networking/
-│   ├── README.md
-│   └── TESTS.md
-├── homelab/
-│   ├── README.md
-│   └── TROUBLESHOOTING.md
-├── software/
-│   └── README.md
-├── python/
-│   └── README.md
-└── experiments/
-    └── README.md
-```
-
-## Authorship and integrity
-
-I used AI assistants as learning and development tools. The case studies describe what I configured, tested and troubleshot, not independent proof of programming everything unaided. No passwords, private data, keys, complete VM disks or fabricated test results are included.
+*Updated: 15 November 2026.*
