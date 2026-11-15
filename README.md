@@ -1,46 +1,42 @@
 # Hi, I'm Ahmed 👋
 
-I'm based in Newcastle upon Tyne, UK, and I enjoy building things to understand how technology works. My interests include **networking, infrastructure, Linux, cybersecurity, software engineering and applied AI**.
+I'm a student based in **Newcastle upon Tyne, UK**, interested in **networking, Linux, cybersecurity, product development and entrepreneurship**. I learn by building practical projects, testing whether they work, and documenting what went wrong along the way.
 
-I learn through practical projects: configuring networks, breaking and repairing servers, building prototypes, and working out why something failed.
+## Featured work
 
-## Featured projects
+| Project | What I did | Explore |
+|---|---|---|
+| **FitLoop — Clothing alterations marketplace** | Built the interactive website and helped present our team's idea at **Generating Genius Entrepreneurship Genius 2026**. Received an **Outstanding Individual award**. | [Competition case study](portfolio/fitloop/README.md) · [Original demo domain](https://tryfitloop.co.uk) |
+| **Cisco Packet Tracer — Project 09** | Designed a two-office simulated network: six VLANs, router-on-a-stick, OSPF routing, guest ACLs and troubleshooting. | [Network architecture and results](portfolio/networking/project-09/README.md) |
+| **Linux Server Security — Project 10** | Secured a VirtualBox Ubuntu VM with UFW and key-only SSH; developed a scheduled Bash SSH-log monitor and synthetic detection tests. | [Read the case study and scripts](portfolio/homelab/project-10/README.md) |
 
-| Project | What I worked on | Documentation |
-| --- | --- | --- |
-| **Cisco Packet Tracer — Project 09: Two-site enterprise network** | VLANs, router-on-a-stick, OSPF, simulated inter-office connectivity and guest ACL verification | [Project 09 case study](portfolio/networking/project-09/README.md) |
-| **Cisco Packet Tracer — 8 networking labs** | LANs, routing, DHCP, DNS/HTTP, VLANs, inter-VLAN routing, ACLs and fault diagnosis | [Read the networking case study](portfolio/networking/README.md) |
-| **Linux Server Security — Project 10** | UFW, SSH key authentication, Bash log analysis, systemd monitoring, and synthetic detection tests | [Project 10 case study](portfolio/homelab/project-10/README.md) |
-| **Ubuntu / VirtualBox homelab** | Linux, SSH, Nginx, Windows-to-VM port forwarding, permissions and deliberate fault repair | [Read the homelab case study](portfolio/homelab/README.md) |
-| **JARVIS — hybrid AI desktop assistant** | Local/cloud AI, voice, automation, memory and permission-controlled actions | [Project repository](https://github.com/ahmedmadkour-dev/jarvis-ai-assistant) |
-| **Sayyad — home services marketplace** | Arabic-first interface, accounts, bookings, Supabase and offline-first design | [Project repository](https://github.com/ahmedmadkour-dev/sayyad) |
-| **FitLoop — alterations marketplace demo** | Interactive discovery, quotes and booking prototype for an entrepreneurship competition | [Website](https://tryfitloop.co.uk) · [Project repository](https://github.com/ahmedmadkour-dev/fitloop) |
+### FitLoop — competition website
 
-### FitLoop — website preview
+[![FitLoop competition prototype](https://raw.githubusercontent.com/ahmedmadkour-dev/fitloop/main/assets/fitloop-homepage.webp)](https://tryfitloop.co.uk)
 
-[![FitLoop — clothes you love, fitted for you](https://raw.githubusercontent.com/ahmedmadkour-dev/fitloop/main/assets/fitloop-homepage.webp)](https://tryfitloop.co.uk)
+**[Competition and award](portfolio/fitloop/COMPETITION.md)** · **[Product design decisions](portfolio/fitloop/PRODUCT.md)** · **[FitLoop repository](https://github.com/ahmedmadkour-dev/fitloop)**
 
-**[Visit tryfitloop.co.uk →](https://tryfitloop.co.uk)** · [View screenshots and project notes](https://github.com/ahmedmadkour-dev/fitloop)
+## More projects
 
-**[Explore my project portfolio →](portfolio/README.md)**
+| Area | Projects | Where to look |
+|---|---|---|
+| Networking fundamentals | Eight progressive Cisco Packet Tracer labs covering switching, routing, DHCP, DNS/HTTP, VLANs, ACLs and fault diagnosis | [Labs 01–08 index](portfolio/networking/README.md) |
+| Ubuntu homelab | SSH remote access, Nginx hosting, NAT forwarding, Linux permissions and fault diagnosis | [Homelab case studies](portfolio/homelab/README.md) |
+| **Sayyad** | Arabic-first trades marketplace prototype for Libya; account and booking backend workflows tested | [Project repository](https://github.com/ahmedmadkour-dev/sayyad) |
+| **JARVIS** | Experimental hybrid voice/desktop assistant exploring tool permissions, local/cloud models and browser automation | [Project repository](https://github.com/ahmedmadkour-dev/jarvis-ai-assistant) |
+| Python and exploratory work | Small programming exercises, data experiments and customer discovery | [Portfolio directory](portfolio/README.md) |
 
-## Technical areas I'm practising
+## What I can demonstrate
 
-- **Networking:** IP addressing, switches and routers, VLANs, trunking, DHCP, DNS, ACLs, testing with ping and router CLI.
-- **Linux and servers:** shell, permissions, system services, SSH, Nginx, HTTP, NAT/port forwarding and troubleshooting.
-- **Programming and AI:** Python fundamentals; TypeScript/React product prototypes; integrating AI models with tools and permission checks.
-- **Engineering approach:** observe symptoms → form a hypothesis → test one variable → verify the repair → document what I learnt.
+- **Networking:** VLAN assignments, 802.1Q trunks, inter-VLAN routing, OSPF, ACLs and connectivity testing in Packet Tracer.
+- **Linux/security:** Ubuntu CLI, systemd, Nginx, UFW, SSH key authentication, Bash scripting, authentication logs and scheduled monitoring.
+- **Product thinking:** requirements, interface and customer-journey design, interactive demos, responding to feedback and pitching ideas.
+- **Troubleshooting:** verify the fault, test a hypothesis, make one controlled change and check the result.
 
-## How I work
+## How this portfolio is documented
 
-AI tools helped me with aspects of design, code generation, explanations and troubleshooting. I set project goals, configured and tested systems, investigated failures and iterated on what worked. I try to describe **what was actually tested**, not just what was intended.
+I separate **tested lab results**, **interactive prototypes** and **experiments still in progress**. Simulated networking work is labelled as simulation, and missing original files are identified rather than implied to be available. My contribution to team products and tool-supported implementation is described in the relevant project reports.
 
-This portfolio separates **completed exercises**, **working prototypes** and **experiments still in progress**. The case studies are written from my practical sessions through **27 October 2026**. Where original project files or screenshots are not yet uploaded, I say so.
+**[Browse the organised portfolio](portfolio/README.md)** · [Evidence and missing files](portfolio/EVIDENCE.md) · [Skills in practice](portfolio/SKILLS.md)
 
-## Currently exploring
-
-Cloud/infrastructure, practical cybersecurity, Python and more advanced networking.
-
----
-
-[Portfolio index](portfolio/README.md) · [Evidence status](portfolio/EVIDENCE.md) · [Practical skills](portfolio/SKILLS.md)
+*Last updated: 15 November 2026*
