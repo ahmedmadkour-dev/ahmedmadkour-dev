@@ -1,0 +1,7 @@
+[Unit]
+Description=SSH Security Monitoring Report
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/ssh-report.sh
+User=root
