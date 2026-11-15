@@ -1,30 +1,28 @@
-# Evidence register and missing original artifacts
+# Evidence and artifact register
 
-**Reviewed:** 27 October 2026. **Important:** this repository currently contains written case studies and links to existing project reports. It does **not** contain the original screenshot image files from earlier ChatGPT sessions, `.pkt` exports, or VM images. The connector used for this documentation could read the images for fact-checking but did not provide a working binary-image upload path to GitHub.
+**Last checked: 15 November 2026.** GitHub documentation reflects observed guided sessions and known repo contents. Screenshots seen in chats are not automatically GitHub files.
 
-The following entries describe **real images reviewed from earlier chats**. Do not label an illustrative diagram, reconstructed command or this written description as a screenshot.
+| Project | Present on GitHub | Still missing / not independently verified |
+|---|---|---|
+| FitLoop | Dedicated [competition portfolio](fitloop/README.md); [original demo screenshots](https://github.com/ahmedmadkour-dev/fitloop/tree/main/assets); FitLoop README/report | Pitch slides, Outstanding Individual award evidence, full application source export |
+| Cisco Labs 01–08 | [Individual case studies](networking/README.md), preserved combined notes and test reference | **All eight original `.pkt` simulation files**, original screenshots, raw router/switch exports |
+| Cisco Project 09 | [Detailed case study](networking/project-09/README.md), IP plan, test matrix and troubleshooting record | Original `.pkt` and most screenshots; complete configuration exports |
+| Ubuntu homelab 01–04 | [Written case studies](homelab/README.md), troubleshooting | Several original screenshots, reusable setup/config exports |
+| Linux Project 10 | [Bash script, systemd unit files and synthetic tests](homelab/project-10/README.md) reconstructed from session screenshots | Original file export from VM; full end-to-end *positive* alert-log test; original screenshots |
+| Sayyad | README and detailed project report | Checked public source export; production deployment not shown |
+| JARVIS | README and detailed project report | Checked public source export; full desktop/voice integration test not shown |
 
-| Work | Observed in authentic chat image | Suggested eventual file |
-| --- | --- | --- |
-| Packet Tracer Lab 08 | PC terminal: ping `192.168.10.10`, **3/4 replies**, first timeout | `assets/evidence/packet-tracer-ping.png` |
-| Packet Tracer Lab 08 | Router CLI: `G0/0.10` administratively down, `G0/0.20` up | `assets/evidence/packet-tracer-subinterface.png` |
-| Homelab 01 | Ubuntu terminal: `echo`, `cat`, `ls -l`, `chmod 600` practice | `assets/evidence/linux-permissions.png` |
-| Homelab 01 | Windows SSH terminal: Ubuntu login + `whoami`, `hostname`, `pwd` | `assets/evidence/ssh-remote-login.png` |
-| Homelab 03 | `ss -ltnp` shows Nginx on **:80** and sshd on **:22** | `assets/evidence/server-listeners.png` |
-| Homelab 03 | `curl -I http://127.0.0.1` shows `HTTP/1.1 200 OK` | `assets/evidence/nginx-http-200.png` |
-| Homelab 04 | VirtualBox Manager showing the two Ubuntu homelab VMs during rebuild | `assets/evidence/vm-rebuild.png` |
+## Earlier screenshots inspected, not committed
 
-## How to finish the evidence pack
+Original chat images previously showed: Lab 01's 4/4 same-LAN ping, Lab 06's 3/4 inter-VLAN ping, Lab 08's administratively down router subinterface and 3/4 post-repair ping, homelab SSH/Nginx service tests, Project 09 OSPF/ACL results, and Project 10 monitoring output. Their binaries are **not** in this repository.
 
-1. Export screenshots from the original chat or local machine and upload them to the corresponding `assets/evidence/` paths in this repo.
-2. Remove or crop private usernames, tokens, email addresses, private file paths and any nonessential network details before making images public. Lab RFC1918 addresses are examples, but check the full screen.
-3. Confirm filenames; then embed them in the relevant case-study READMEs with Markdown `![Meaningful test description](../assets/evidence/name.png)`.
-4. Save original Cisco `.pkt` files (and sanitized router config snapshots) in `portfolio/networking/lab-01/`, etc., once available.
-5. For home servers, commit setup notes or scripts rather than VM disks, private SSH keys, config secrets or copied credentials.
-6. Re-run tests where possible and record date, expected outcome and actual outcome.
+## How to improve the evidence
 
-**Interpretation rule:** screenshots document one visible state at one moment; they are not proof that every possible network path or application flow was tested. A single 3/4 ping result must not be described as 100% packet delivery.
+1. Locate and upload the saved Packet Tracer simulations into each lab's folder and Project 09's folder.
+2. Capture clear cropped screenshots of topology, switch/router interfaces, ping tests and applied ACLs.
+3. Export running configurations with credentials, user information and any live public IPs reviewed before publishing.
+4. For FitLoop, attach the presentation, award evidence (if comfortable), an annotated walkthrough and safe source export.
+5. For Linux, commit *code and configuration*, not VM disks, SSH private keys, credentials, local accounts, tokens or whole journal logs.
+6. Record the **expected outcome / actual result / date** for every test. Do not describe 3/4 replies as 100% delivery.
 
-## Visuals
-
-The Mermaid diagrams in the networking and homelab case studies are **conceptual diagrams written for documentation**, not screenshots or original topology exports.
+Diagrams included in case studies are conceptual documentation unless specifically labelled as original exports.
