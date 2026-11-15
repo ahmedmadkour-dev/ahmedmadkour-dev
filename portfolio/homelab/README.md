@@ -83,6 +83,10 @@ curl -I http://127.0.0.1
 
 These commands are reference examples from the training tasks and screenshots, not a shell history export.
 
+## Project 10 — Linux server security and SSH monitoring ✅
+
+On 15 November 2026, I continued the existing Ubuntu VM homelab: audited listening services, enabled UFW with an incoming deny policy, verified Nginx and SSH access from Windows via VirtualBox NAT, configured Ed25519 SSH key-only authentication, and built a Bash SSH-log monitoring script scheduled by systemd. I tested report generation and synthetic cooldown/distributed-activity detection. See the [Project 10 case study, script and systemd files](project-10/README.md). The source code was reconstructed from tested terminal screenshots, not downloaded directly from the VM.
+
 ## Next work
 
 Finish Lab 04, learn VM-to-VM networking, avoid exposing SSH/HTTP externally without appropriate security controls, add sanitized terminal logs/screenshots, and capture a reproducible build checklist.
