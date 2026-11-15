@@ -1,7 +1,7 @@
 # Cisco Packet Tracer Lab 04 — DNS and HTTP server
 
 **Format:** Simulator-based guided lab (September–October 2026)  
-**Artifact status:** Written case study available; original Packet Tracer simulation file **not uploaded**.
+**Artifact status:** [Original Packet Tracer simulation — lab-04.pkt](lab-04.pkt) uploaded and checked byte-for-byte against the user-supplied file. The project has not been reopened in Packet Tracer within this environment.
 
 **Purpose:** Understand name resolution and website reachability as separate services.
 
@@ -11,10 +11,10 @@
 
 **What I learnt:** IP reachability, DNS resolution and HTTP availability are distinct checks. A working ping doesn't imply a hostname or web service works.
 
-**Evidence boundary:** The original simulated server, DNS table, HTTP screenshot and `.pkt` file have not been uploaded.
+**Evidence boundary:** The saved simulation is included; the server/DNS configuration screenshots and HTTP test evidence are still not separately attached.
 
 ## Reproduce and document
 
-To make this lab reproducible, locate or rebuild the original Packet Tracer topology, save it as `lab-04.pkt`, and capture the interface/VLAN details and a fresh expected-vs-actual test result. Do not label recreated screenshots as the original.
+Open [lab-04.pkt](lab-04.pkt) in Cisco Packet Tracer, confirm the saved configuration, and record a fresh expected-versus-actual connectivity test with a topology screenshot. The saved file is authentic, but it was not independently executed here.
 
 [All networking projects](../README.md) · [Project 09 — Two-site network](../project-09/README.md)
