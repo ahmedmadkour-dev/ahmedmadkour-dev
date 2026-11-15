@@ -1,7 +1,7 @@
 # Cisco Packet Tracer Lab 07 — Extended ACL — guest access restriction
 
 **Format:** Simulator-based guided lab (September–October 2026)  
-**Artifact status:** Written case study available; original Packet Tracer simulation file **not uploaded**.
+**Artifact status:** [Original Packet Tracer simulation — lab-07.pkt](lab-07.pkt) uploaded and checked byte-for-byte against the user-supplied file. The project has not been reopened in Packet Tracer within this environment.
 
 **Purpose:** Restrict guest-initiated traffic to staff after inter-VLAN routing is configured.
 
@@ -11,10 +11,10 @@
 
 **What I learnt:** ACL rule order and interface direction determine which traffic is filtered; the mere presence of different VLANs doesn't create a firewall once routing is enabled.
 
-**Evidence boundary:** No independent `show access-lists` counters, original rule export or `.pkt` currently available for this specific Lab 07. This is a guided-exercise record, not an audited security claim.
+**Evidence boundary:** The saved simulation is included, but independent ACL counter evidence and final rule export are not separately attached for this lab.
 
 ## Reproduce and document
 
-To make this lab reproducible, locate or rebuild the original Packet Tracer topology, save it as `lab-07.pkt`, and capture the interface/VLAN details and a fresh expected-vs-actual test result. Do not label recreated screenshots as the original.
+Open [lab-07.pkt](lab-07.pkt) in Cisco Packet Tracer, confirm the saved configuration, and record a fresh expected-versus-actual connectivity test with a topology screenshot. The saved file is authentic, but it was not independently executed here.
 
 [All networking projects](../README.md) · [Project 09 — Two-site network](../project-09/README.md)
