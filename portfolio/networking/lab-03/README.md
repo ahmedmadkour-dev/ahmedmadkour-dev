@@ -1,7 +1,7 @@
 # Cisco Packet Tracer Lab 03 — Dynamic IPv4 addressing with DHCP
 
 **Format:** Simulator-based guided lab (September–October 2026)  
-**Artifact status:** Written case study available; original Packet Tracer simulation file **not uploaded**.
+**Artifact status:** [Original Packet Tracer simulation — lab-03.pkt](lab-03.pkt) uploaded and checked byte-for-byte against the user-supplied file. The project has not been reopened in Packet Tracer within this environment.
 
 **Purpose:** Reduce manual client IP configuration using DHCP.
 
@@ -11,10 +11,10 @@
 
 **What I learnt:** DHCP distributes addresses and network settings dynamically; excluding reserved addresses avoids assigning infrastructure IPs to clients.
 
-**Evidence boundary:** No original client lease screenshot, raw DHCP configuration export or `.pkt` file currently uploaded.
+**Evidence boundary:** The saved simulation is included, but original client-lease screenshots and a raw DHCP configuration export are not attached.
 
 ## Reproduce and document
 
-To make this lab reproducible, locate or rebuild the original Packet Tracer topology, save it as `lab-03.pkt`, and capture the interface/VLAN details and a fresh expected-vs-actual test result. Do not label recreated screenshots as the original.
+Open [lab-03.pkt](lab-03.pkt) in Cisco Packet Tracer, confirm the saved configuration, and record a fresh expected-versus-actual connectivity test with a topology screenshot. The saved file is authentic, but it was not independently executed here.
 
 [All networking projects](../README.md) · [Project 09 — Two-site network](../project-09/README.md)
