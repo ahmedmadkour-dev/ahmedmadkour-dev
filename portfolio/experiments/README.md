@@ -6,7 +6,7 @@ These experiments explore how to validate a real-world opportunity before buildi
 
 **Goal:** see whether search demand and competing search results supported a narrowly targeted UK information website.
 
-**Workflow:** used a small DataForSEO trial and AI-assisted scripts to collect and screen keyword data, check exclusions, inspect search-result snapshots and evaluate whether a standalone site was sensible.
+**Workflow:** used a small DataForSEO trial and short data-processing scripts to collect and screen keyword data, check exclusions, inspect search-result snapshots and evaluate whether a standalone site was sensible.
 
 **Recorded result:**
 - 72 phrases across 12 keyword families after research/refinement.
