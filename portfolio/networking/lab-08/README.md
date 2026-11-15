@@ -1,7 +1,7 @@
 # Cisco Packet Tracer Lab 08 — Troubleshooting three injected faults
 
 **Format:** Simulator-based guided lab (September–October 2026)  
-**Artifact status:** Written case study available; original Packet Tracer simulation file **not uploaded**.
+**Artifact status:** [Original Packet Tracer simulation — lab-08.pkt](lab-08.pkt) uploaded and checked byte-for-byte against the user-supplied file. The project has not been reopened in Packet Tracer within this environment.
 
 **Purpose:** Diagnose common connectivity failures instead of randomly changing settings.
 
@@ -14,10 +14,10 @@
 
 **What I learnt:** Check IP settings, interface status, VLAN membership, routing and test output in a disciplined order. `show ip interface brief` can identify administratively down subinterfaces.
 
-**Evidence boundary:** Original router/terminal screenshots were reviewed in a prior session but aren't attached in this repository; no saved `.pkt` file is available here.
+**Evidence boundary:** The saved simulation is included; the earlier troubleshooting screenshots have not been added to this repository.
 
 ## Reproduce and document
 
-To make this lab reproducible, locate or rebuild the original Packet Tracer topology, save it as `lab-08.pkt`, and capture the interface/VLAN details and a fresh expected-vs-actual test result. Do not label recreated screenshots as the original.
+Open [lab-08.pkt](lab-08.pkt) in Cisco Packet Tracer, confirm the saved configuration, and record a fresh expected-versus-actual connectivity test with a topology screenshot. The saved file is authentic, but it was not independently executed here.
 
 [All networking projects](../README.md) · [Project 09 — Two-site network](../project-09/README.md)
