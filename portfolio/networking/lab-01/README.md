@@ -1,7 +1,7 @@
 # Cisco Packet Tracer Lab 01 — First LAN — switching and ping
 
 **Format:** Simulator-based guided lab (September–October 2026)  
-**Artifact status:** Written case study available; original Packet Tracer simulation file **not uploaded**.
+**Artifact status:** [Original Packet Tracer simulation — lab-01.pkt](lab-01.pkt) uploaded and checked byte-for-byte against the user-supplied file. The project has not been reopened in Packet Tracer within this environment.
 
 **Purpose:** Understand how two devices on the same IPv4 subnet communicate through a Layer 2 switch.
 
@@ -11,10 +11,10 @@
 
 **What I learnt:** Hosts in the same VLAN/subnet can communicate through Layer 2 switching; a router is not necessary for local delivery. The devices use ARP to learn the destination MAC address.
 
-**Not yet uploaded:** Original `.pkt` file, topology screenshot or saved configuration export.
+**Evidence boundary:** The saved Packet Tracer simulation is now included. The original topology screenshot and any device-configuration export still need to be attached.
 
 ## Reproduce and document
 
-To make this lab reproducible, locate or rebuild the original Packet Tracer topology, save it as `lab-01.pkt`, and capture the interface/VLAN details and a fresh expected-vs-actual test result. Do not label recreated screenshots as the original.
+Open [lab-01.pkt](lab-01.pkt) in Cisco Packet Tracer, confirm the saved configuration, and record a fresh expected-versus-actual connectivity test with a topology screenshot. The saved file is authentic, but it was not independently executed here.
 
 [All networking projects](../README.md) · [Project 09 — Two-site network](../project-09/README.md)
