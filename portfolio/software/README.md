@@ -1,49 +1,33 @@
-# AI, web products and home media experiments
+# Software prototypes and experiments
 
-This page links more detailed project repositories and keeps the project's **actual validation level** clear.
+This page covers product and automation prototypes. For the full business competition story, **FitLoop has its [own portfolio section](../fitloop/README.md)**.
 
-## JARVIS — AI desktop assistant
+## Sayyad — Arabic-first home services marketplace
 
-**[Repository](https://github.com/ahmedmadkour-dev/jarvis-ai-assistant)**
+**[Repository](https://github.com/ahmedmadkour-dev/sayyad)** · [Project report](https://github.com/ahmedmadkour-dev/sayyad/blob/main/PROJECT_REPORT.md)
 
-- **Purpose:** combine useful AI conversation with actual computer actions.
-- **Components explored:** Gemini plus local Ollama/Qwen; faster-whisper/Piper voice options; wake word; PySide6/QML interface; Playwright/browser automation; Windows actions; memory/audit logging; permission gates.
-- **Hands-on problem:** an AI can understand instructions even when a website's changing UI, sign-in flow or browser state makes reliable execution fail.
-- **What worked:** strong voice/conversation experience and repeatable automation on some workflows.
-- **Limitations:** not a generally reliable hands-free agent, and not production security software. Some connectors/adapters were experimental and not wired through end to end.
-- **Honest authorship:** AI coding tools wrote or modified substantial code; my work centred on specifying, integrating, testing, debugging and revising it.
+An Arabic-first React/TypeScript prototype exploring discovery, bookings and provider onboarding for local trades in Libya. The app uses Supabase and a local-first data model. I configured the Supabase version and personally tested a real account login and a backend-persisted booking.
 
-See the project's [technical report](https://github.com/ahmedmadkour-dev/jarvis-ai-assistant/blob/main/PROJECT_REPORT.md).
+The preserved project's earlier validation recorded **160 passing tests in 49 files**, while production payments, provider operations and a full commercial deployment were not demonstrated. The public repo currently offers written documentation rather than an inspectable full source export.
 
-## Sayyad — Arabic-first trades marketplace
+## JARVIS — Desktop assistant and safe tool execution
 
-**[Repository](https://github.com/ahmedmadkour-dev/sayyad)**
+**[Repository](https://github.com/ahmedmadkour-dev/jarvis-ai-assistant)** · [Project report](https://github.com/ahmedmadkour-dev/jarvis-ai-assistant/blob/main/PROJECT_REPORT.md)
 
-- React/TypeScript interface aimed at matching customers with local tradespeople in Libya.
-- Explored Arabic/English layout, onboarding, profiles, bookings, local/offline storage and Supabase integration.
-- Personally tested creating a real account and a backend-persisted booking.
-- Reported source validation: 160 passing automated tests across 49 files, with project-specific limitations recorded in its README.
-- **Not** evidence of a scaled deployed marketplace or production payment platform.
+Explored a Windows assistant integrating local/cloud models, voice, browser automation, memory and permission checks. I worked on component integration, requirements, repeated workflow tests and troubleshooting.
 
-See the [project report](https://github.com/ahmedmadkour-dev/sayyad/blob/main/PROJECT_REPORT.md).
+The most useful finding was how difficult reliable computer actions become when websites change or need authentication. The project is an experimental personal assistant, **not** a general autonomous agent or production security system. The public repo contains the written case study and technical report, but not the complete source export.
 
-## FitLoop — clothing alterations marketplace demo
+## FitLoop — Dedicated entrepreneurship case study
 
-**[Website](https://tryfitloop.co.uk)** · **[Repository and screenshots](https://github.com/ahmedmadkour-dev/fitloop)**
+**[FitLoop website, pitch and Outstanding Individual award](../fitloop/README.md)** · [Separate FitLoop repository](https://github.com/ahmedmadkour-dev/fitloop)
 
-- Interactive product prototype created for a 2026 entrepreneurship competition.
-- Worked on customer discovery flow, tailor filtering, alteration requests, simulated quote comparison and booking progress.
-- Presented as a demo, not a live multi-user service: no real marketplace database, payments or production messaging.
+A team alterations-marketplace idea. I built the interactive competition website and presentation material. See the dedicated case study for the competition result, prototype screenshots, design decisions and lessons.
 
-See the [project report](https://github.com/ahmedmadkour-dev/fitloop/blob/main/PROJECT_REPORT.md).
+## Jellyfin home media server — short experiment
 
-## Jellyfin / home media server — practical experiment
+Used an Ubuntu VM to host Jellyfin and stream media to an iPad on the home network. Considered Tailscale for access beyond the local network, but **successful remote use was not verified**. No source or configuration export is currently attached.
 
-- Used an Ubuntu VM to host Jellyfin and stream media to an iPad on the home network.
-- Explored how a guest VM, a media server and a separate client device communicate.
-- Considered Tailscale for access beyond the local network, but **successful remote operation was not verified**.
-- No source/config export or screenshots currently included; this is a brief experience note, not a complete build guide.
+## Common learning
 
-## What ties these together
-
-Product prototyping, Linux/networking knowledge and safe automation overlap: the UI is only one layer; deployments depend on processes, permissions, networks, data storage and reliable tests. I want to understand the underlying systems, not just generate a finished-looking interface.
+Designing an interface is only one layer: services also depend on processes, networks, permissions, stored data and tested error cases. These prototypes show product decisions and integration work, with verified and unverified features kept separate.
