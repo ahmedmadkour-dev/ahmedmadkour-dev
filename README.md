@@ -10,6 +10,7 @@ I learn through practical projects: configuring networks, breaking and repairing
 | --- | --- | --- |
 | **Cisco Packet Tracer — Project 09: Two-site enterprise network** | VLANs, router-on-a-stick, OSPF, simulated inter-office connectivity and guest ACL verification | [Project 09 case study](portfolio/networking/project-09/README.md) |
 | **Cisco Packet Tracer — 8 networking labs** | LANs, routing, DHCP, DNS/HTTP, VLANs, inter-VLAN routing, ACLs and fault diagnosis | [Read the networking case study](portfolio/networking/README.md) |
+| **Linux Server Security — Project 10** | UFW, SSH key authentication, Bash log analysis, systemd monitoring, and synthetic detection tests | [Project 10 case study](portfolio/homelab/project-10/README.md) |
 | **Ubuntu / VirtualBox homelab** | Linux, SSH, Nginx, Windows-to-VM port forwarding, permissions and deliberate fault repair | [Read the homelab case study](portfolio/homelab/README.md) |
 | **JARVIS — hybrid AI desktop assistant** | Local/cloud AI, voice, automation, memory and permission-controlled actions | [Project repository](https://github.com/ahmedmadkour-dev/jarvis-ai-assistant) |
 | **Sayyad — home services marketplace** | Arabic-first interface, accounts, bookings, Supabase and offline-first design | [Project repository](https://github.com/ahmedmadkour-dev/sayyad) |
