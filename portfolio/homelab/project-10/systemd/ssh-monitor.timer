@@ -1,0 +1,11 @@
+[Unit]
+Description=Run SSH Security Monitor Every 15 Seconds
+
+[Timer]
+OnBootSec=1min
+OnUnitInactiveSec=15s
+AccuracySec=1s
+Unit=ssh-monitor.service
+
+[Install]
+WantedBy=timers.target
