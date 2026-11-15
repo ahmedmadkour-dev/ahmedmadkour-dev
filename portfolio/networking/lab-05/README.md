@@ -1,7 +1,7 @@
 # Cisco Packet Tracer Lab 05 — VLAN isolation on a managed switch
 
 **Format:** Simulator-based guided lab (September–October 2026)  
-**Artifact status:** Written case study available; original Packet Tracer simulation file **not uploaded**.
+**Artifact status:** [Original Packet Tracer simulation — lab-05.pkt](lab-05.pkt) uploaded and checked byte-for-byte against the user-supplied file. The project has not been reopened in Packet Tracer within this environment.
 
 **Purpose:** Split a physical switch into separate Layer 2 broadcast domains.
 
@@ -11,10 +11,10 @@
 
 **What I learnt:** Hosts on the same physical switch aren't automatically in the same logical network. A Layer 2 switch alone cannot route between distinct VLANs.
 
-**Evidence boundary:** Source `.pkt` and final screenshot of `show vlan brief` not in the repository.
+**Evidence boundary:** The saved simulation is included, but a final `show vlan brief` screenshot is not yet separately attached.
 
 ## Reproduce and document
 
-To make this lab reproducible, locate or rebuild the original Packet Tracer topology, save it as `lab-05.pkt`, and capture the interface/VLAN details and a fresh expected-vs-actual test result. Do not label recreated screenshots as the original.
+Open [lab-05.pkt](lab-05.pkt) in Cisco Packet Tracer, confirm the saved configuration, and record a fresh expected-versus-actual connectivity test with a topology screenshot. The saved file is authentic, but it was not independently executed here.
 
 [All networking projects](../README.md) · [Project 09 — Two-site network](../project-09/README.md)
