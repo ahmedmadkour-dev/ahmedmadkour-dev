@@ -27,7 +27,7 @@ Hands-on work in infrastructure, cybersecurity, product design and technical exp
 
 **Source/examples:** the Project 10 Bash script and systemd definitions, plus synthetic test scripts. The main FitLoop, Sayyad and JARVIS repositories currently contain project write-ups and/or demo screenshots rather than full source exports.
 
-**Still missing:** original Cisco `.pkt` files for Labs 01–09 and many original terminal/topology screenshots. These should be added from the user's machine after checking for secrets, without replacing past results with invented evidence.
+**Cisco simulation files now included:** all nine original `.pkt` files are available in the [Cisco networking folders](networking/README.md), with a [SHA-256 file manifest](networking/FILE-MANIFEST.md). Most original screenshots and device configuration exports remain outstanding; the binaries have not been independently reopened in Packet Tracer here.
 
 See [evidence status and priorities](EVIDENCE.md) and [skills matrix](SKILLS.md).
 
