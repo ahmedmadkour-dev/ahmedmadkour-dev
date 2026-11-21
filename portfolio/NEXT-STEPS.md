@@ -1,18 +1,20 @@
 # Prioritised portfolio improvements
 
-This is a practical checklist based on the actual files currently visible in GitHub (15 November 2026).
+This is a practical checklist based on the actual files currently visible in GitHub (21 November 2026).
 
 ## Priority 1 — Verify and illustrate the uploaded Cisco simulations
 
-**Progress:** All nine original `.pkt` files are now uploaded and SHA-256 checksummed. The remaining task is to reopen them with Cisco Packet Tracer and capture enough screenshots and configurations for a reviewer to verify each lab quickly.
+**Progress:** All ten original `.pkt` files are now uploaded and SHA-256 checksummed. The remaining task is to reopen them with Cisco Packet Tracer and capture enough screenshots and configurations for a reviewer to verify each lab quickly.
 
 - [x] Upload original Lab 01–08 `.pkt` files to matching [lab folders](networking/README.md).
 - [x] Add original Project 09 `.pkt` to `networking/project-09/`.
+- [x] Add [Project 10 OSPF failover](networking/project-10/README.md), the original `.pkt`, test record and PC-to-PC screenshot.
+- [ ] Test end-to-end PC-to-PC connectivity *while* Project 10's primary connection is disabled, and record any lost packets/convergence time.
 - [ ] For each: screenshot the logical topology and one decisive test; record expected vs actual results.
 - [ ] For Project 09: include sanitized `show vlan brief`, `show interfaces trunk`, `show ip route ospf`, `show ip ospf neighbor` and `show ip access-lists` output.
 - [ ] Independently open each uploaded `.pkt` in Packet Tracer, checking device state and expected saved configurations.
 
-**A single thoroughly reproducible Project 09** is more compelling than nine descriptions with no files.
+**A clearly demonstrated Project 10 failover and an independently verified Project 09** will make stronger interview examples than undemonstrated technology lists.
 
 ## Priority 2 — Complete FitLoop's competition evidence
 
@@ -61,4 +63,4 @@ Focus on accurate reasoning, not on implying everything was hand-coded or built 
 - [ ] Use descriptive commit messages, consistent folder names and short top-of-repo READMEs. Add licenses only when the ownership and rights permit.
 - [ ] Remove actual keys, tokens, personal data, runtime databases and copied commercial data from any future source export; check Git history too.
 
-**Current strength:** FitLoop's competition story, nine downloadable Packet Tracer lab files, and a documented Linux security lab with Bash/systemd code. **Current weakness:** the main FitLoop/Sayyad/JARVIS repositories remain primarily documentation rather than inspectable application source, and many original screenshots still need uploading.
+**Current strength:** FitLoop's competition story, ten downloadable Packet Tracer simulation files, and a documented Linux security lab with Bash/systemd code. **Current weakness:** the main FitLoop/Sayyad/JARVIS repositories remain primarily documentation rather than inspectable application source, and many original screenshots still need uploading.
