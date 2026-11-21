@@ -7,6 +7,7 @@ I'm a student based in **Newcastle upon Tyne, UK**, interested in **networking, 
 | Project | What I did | Explore |
 |---|---|---|
 | **FitLoop — Clothing alterations marketplace** | Built the interactive website and helped present our team's idea at **Generating Genius Entrepreneurship Genius 2026**. Received an **Outstanding Individual award**. | [Competition case study](portfolio/fitloop/README.md) · [Original demo domain](https://tryfitloop.co.uk) |
+| **Cisco Packet Tracer — Project 10: OSPF failover** | Designed a three-router redundant network; observed automatic route failover, failback and successful cross-office PC connectivity. Original `.pkt` and ping screenshot available. | [Failover project and evidence](portfolio/networking/project-10/README.md) |
 | **Cisco Packet Tracer — Project 09** | Designed a two-office simulated network: six VLANs, router-on-a-stick, OSPF routing and guest ACLs. Original `.pkt` file available. | [Network architecture and results](portfolio/networking/project-09/README.md) |
 | **Linux Server Security — Project 10** | Secured a VirtualBox Ubuntu VM with UFW and key-only SSH; developed a scheduled Bash SSH-log monitor and synthetic detection tests. | [Read the case study and scripts](portfolio/homelab/project-10/README.md) |
 
