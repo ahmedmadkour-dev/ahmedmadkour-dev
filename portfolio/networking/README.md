@@ -1,8 +1,8 @@
 # Cisco Packet Tracer — Networking portfolio
 
-**Nine documented simulations — all nine original `.pkt` files now available to download.**
+**Ten documented simulations — all ten original `.pkt` files available to download.**
 
-This section covers progressive networking exercises (Labs 01–08, September–October 2026) followed by a larger two-site enterprise simulation (Project 09, November 2026). Each folder contains a distinct case study. **The original Packet Tracer simulation files are now included.** Most original screenshot evidence and exported running-config files are still absent.
+This section covers progressive networking exercises (Labs 01–08, September–October 2026) followed by a two-site enterprise simulation (Project 09) and an OSPF redundancy/failover lab (Project 10, November 2026). Each folder contains a distinct case study. **The original Packet Tracer simulation files are now included.** Most original screenshot evidence and exported running-config files are still absent.
 
 ## Labs 01–08
 
@@ -27,12 +27,20 @@ Built separate **Newcastle HQ** and **Manchester branch** LANs, six VLANs, route
 
 This is a simulated multi-site design, not a real-world WAN or deployed enterprise security architecture.
 
+## Project 10 — Redundant network and OSPF failover
+
+**[Read the Project 10 case study](project-10/README.md)** · [Download the original `.pkt`](project-10/project-10-ospf-failover.pkt) · [View real PC-to-PC test screenshot](project-10/assets/pc-hq-to-pc-br-ping.png)
+
+Added a third router and a backup path between HQ and Branch. Tested the primary route (OSPF cost 2), deliberately shut down the direct connection, verified traffic to the remote router LAN used the backup route (cost 3), and confirmed automatic restoration of the preferred route after re-enabling the connection. A subsequent cross-office PC ping received 3/4 replies.
+
+The PC-to-PC test was carried out **after** failback, not during the primary-link outage. See the case study for the difference between demonstrated router-gateway recovery and still-unmeasured loss during reconvergence.
+
 ## Evidence and reproducibility
 
-- **Present:** All nine original `.pkt` binary files, individual project case studies, plans, and previously recorded troubleshooting/test observations. See the [file provenance and checksum manifest](FILE-MANIFEST.md).
-- **Missing:** Original topology screenshots, most CLI test screenshots, and raw sanitized device configuration exports.
+- **Present:** All ten original `.pkt` binary files, individual project case studies, plans, and previously recorded troubleshooting/test observations. See the [file provenance and checksum manifest](FILE-MANIFEST.md).
+- **Missing:** Original topology screenshots, most CLI test screenshots (Project 10 includes one genuine PC-to-PC screenshot), and raw sanitized device configuration exports.
 - **Next action:** Open the saved simulations in Cisco Packet Tracer, inspect their device state, and capture fresh topology/configuration and connectivity evidence. These uploaded files match the originals byte-for-byte, but were not opened in Packet Tracer in this environment.
 
 See the [portfolio evidence register](../EVIDENCE.md) and [practical skills matrix](../SKILLS.md).
 
-The most useful interview walkthrough is [Project 09](project-09/README.md), especially the OSPF routing and gateway addressing error. For fundamentals, start at [Lab 01](lab-01/README.md) and work forward.
+For a resilience-focused interview walkthrough, start with [Project 10](project-10/README.md). For multi-VLAN enterprise networking, [Project 09](project-09/README.md) documents OSPF routing and a gateway-addressing error. For fundamentals, start at [Lab 01](lab-01/README.md) and work forward.
