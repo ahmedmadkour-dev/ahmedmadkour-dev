@@ -1,8 +1,8 @@
 # Cisco Packet Tracer — source file manifest
 
-**Uploaded:** 15 November 2026
+**Uploads:** Projects 01–09 on 15 November 2026; Project 10 on 21 November 2026
 
-These nine files were copied *byte-for-byte* from the original uploads into the matching networking project folders. The uploaded Git blob SHA-1 identifiers were checked against local `git hash-object` output before committing.
+These ten files were copied *byte-for-byte* from the original uploads into the matching networking project folders. The uploaded Git blob SHA-1 identifiers were checked against local `git hash-object` output before committing.
 
 | Project | Original uploaded filename | GitHub file | Bytes | SHA-256 |
 |---|---|---|---:|---|
@@ -15,7 +15,8 @@ These nine files were copied *byte-for-byte* from the original uploads into the 
 | 07 | Project 07 — Network Security with Access Control Lists (ACLs).pkt | [Download .pkt](lab-07/lab-07.pkt) | 48,035 | `8600f578fa262c0300aeabfcfc114293d24de5f44b772c8f5665af815c98d22e` |
 | 08 | Project 08 - Trouble shooting - Networking connectivity, VLAN connectivity, Router connectivity.pkt | [Download .pkt](lab-08/lab-08.pkt) | 48,496 | `0047f9ef91053948cdc5b1a495ca12cb003296be7548cc83604cb54be0f80241` |
 | 09 | Project 09 — Enterprise Network Infrastructure.pkt | [Download .pkt](project-09/enterprise-network-project-09.pkt) | 71,972 | `3023f295143157c2f578dd77cdd6c9d75f8dbf732628a3cd6ef2d1f4a93eb0fd` |
+| 10 | Project 10 - OSPF Failover.pkt | [Download .pkt](project-10/project-10-ospf-failover.pkt) | 57,432 | `a0238464daaf2d7e0893a98856ecb9e6d1ee68d932fe6430183de0d0163d7076` |
 
-**Scope of verification:** File hashes and byte counts match the uploaded originals. Cisco Packet Tracer was not available inside this environment, so these binaries were not reopened, simulated, or assessed for saved device state. Connectivity tests described in case studies came from prior guided screenshots. Screenshots and raw running-config exports are separate evidence to add.
+**Scope of verification:** File hashes and byte counts match the uploaded originals. Cisco Packet Tracer was not available inside this environment, so these binaries were not reopened, simulated, or assessed for saved device state. Connectivity tests described in case studies came from prior guided screenshots. Project 10 includes an original end-to-end ping screenshot; most older screenshots and raw running-config exports are separate evidence to add.
 
 [Networking index](README.md)
