@@ -7,6 +7,7 @@ Hands-on work in infrastructure, cybersecurity, product design and technical exp
 | Focus | Project | Outcome | Open |
 |---|---|---|---|
 | Product & entrepreneurship | **FitLoop** | Website prototype presented at Generating Genius Entrepreneurship Genius 2026; **Outstanding Individual award** | [FitLoop — competition, product and demo](fitloop/README.md) |
+| Networking | **Cisco Project 10 — OSPF failover** | Three-router redundant network; OSPF recovered through a backup path and restored the preferred direct path | [Project 10](networking/project-10/README.md) |
 | Networking | **Cisco Project 09** | Two-office Packet Tracer design with OSPF and guest ACL tests | [Project 09](networking/project-09/README.md) |
 | Linux security | **Project 10** | UFW, key-only SSH, systemd-scheduled Bash log analysis; synthetic detector tests | [Project 10](homelab/project-10/README.md) |
 
@@ -14,7 +15,7 @@ Hands-on work in infrastructure, cybersecurity, product design and technical exp
 
 | Category | Contents |
 |---|---|
-| [Cisco Packet Tracer](networking/README.md) | Individually documented **Labs 01–08** plus Project 09 |
+| [Cisco Packet Tracer](networking/README.md) | Individually documented **Labs 01–08** plus Projects 09 and 10 |
 | [Ubuntu / VirtualBox](homelab/README.md) | Linux homelab exercises and Project 10 |
 | [FitLoop](fitloop/README.md) | Dedicated product, competition and design write-ups |
 | [Software prototypes](software/README.md) | Sayyad, JARVIS and other technology experiments |
@@ -23,11 +24,11 @@ Hands-on work in infrastructure, cybersecurity, product design and technical exp
 
 ## What is actually in GitHub?
 
-**Written documentation:** all nine Cisco projects, homelab case studies, FitLoop, Sayyad and JARVIS.
+**Written documentation:** all ten Cisco projects, homelab case studies, FitLoop, Sayyad and JARVIS.
 
 **Source/examples:** the Project 10 Bash script and systemd definitions, plus synthetic test scripts. The main FitLoop, Sayyad and JARVIS repositories currently contain project write-ups and/or demo screenshots rather than full source exports.
 
-**Cisco simulation files now included:** all nine original `.pkt` files are available in the [Cisco networking folders](networking/README.md), with a [SHA-256 file manifest](networking/FILE-MANIFEST.md). Most original screenshots and device configuration exports remain outstanding; the binaries have not been independently reopened in Packet Tracer here.
+**Cisco simulation files now included:** all ten original `.pkt` files are available in the [Cisco networking folders](networking/README.md), with a [SHA-256 file manifest](networking/FILE-MANIFEST.md). Project 10 includes an authentic end-to-end ping screenshot. Most other screenshots and device configuration exports remain outstanding; the binaries have not been independently reopened in Packet Tracer here.
 
 See [evidence status and priorities](EVIDENCE.md) and [skills matrix](SKILLS.md).
 
@@ -37,4 +38,4 @@ Each case study focuses on the problem, my role, what was implemented, what I pe
 
 **[Prioritised improvements](NEXT-STEPS.md)**
 
-*Updated: 15 November 2026.*
+*Updated: 21 November 2026.*
